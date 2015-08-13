@@ -4,6 +4,6 @@ Title: Anova
 Version: 0.1.0
 Author: Thilanka Munasinghe
 Maintainer: Who to complain to <thilankawillbe@gmail.com>
-Description: This package is developed to conduct ANOVA test on various datasets that has multiple groups and those groups are with different number of obeservations (elements) on them. Inputs should be Factors, List and Formula and output will be a ANOVA results.
+Description: This package is developed to conduct ANOVA test on various datasets that has multiple groups and those groups are with different number of obeservations (elements) on them. Inputs should be Factors, List and Formula and output will be a ANOVA results.Results will be Sum of Squares Within (SSW), Sum of Squares Between(SSB), Mean Squares .. ect.
 License: MIT
 LazyData: TRUE

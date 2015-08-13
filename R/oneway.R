@@ -23,7 +23,8 @@ oneway.default <- function(z, ...) {
 
   ssb <-sum(grp.n * (GroupMeanVec - grand.mean)^2)
   ssw <-sum((grp.n - 1) * grp.var)
-  list(ssb=ssb, ssw=ssw, dfb=(g-1), dfw=(n-g),GroupMeanVec = GroupMeanVec,namesGroups=namesGroups)
+  list(ssb=ssb, ssw=ssw, dfb=(g-1), dfw=(n-g),GroupMeanVec = GroupMeanVec,namesGroups=namesGroups) # output list.
+
 
 }
 
